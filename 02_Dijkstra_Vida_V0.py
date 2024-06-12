@@ -169,7 +169,7 @@ game_map.add_edge('M', 'C', 15)
 
 #Calculamos el camino más corto desde un nodo inicial hasta un nodo meta.
 start_position = 'A'
-end_position = 'd'
+end_position = 'D'
 shortest_distance, shortest_path, all_paths = game_map.dijkstra(start_position, end_position)
 print("\nDistancia mínima desde", start_position, "hasta", end_position, ":", shortest_distance, " km")
 print("Camino tomado:", shortest_path)
